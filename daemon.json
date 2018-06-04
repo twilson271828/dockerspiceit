@@ -1,0 +1,6 @@
+{
+    "storage-driver": "overlay2",
+    "graph": "/var/lib/docker",
+    "debug": false,
+    "hosts": ["unix:///var/run/docker.sock","tcp://localhost:6666"]
+}
